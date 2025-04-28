@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-theme {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1, h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.section-intro-wrapper {
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 2.5em;
+}
+
+.section-number {
+    font-size: 1.5em;
+    color: #888888;
+}
+
+.section-heading {
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.section-heading:hover {
+    color: #007BFF; /* Change to your desired hover color */
+}
+
+.section-text {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.toggle-button {
+    cursor: pointer;
+}
+
+.download-resume-button {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-resume-button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+}
+
+.social-media a {
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-media a:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,35 @@
+/* Back arrow styles */
+.back-arrow {
+    position: fixed;
+    top: 48px;
+    left: 48px;
+    z-index: 99999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-arrow a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text);
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.back-arrow a svg {
+    fill: var(--color-text);
+}
+
+.back-arrow a:hover {
+    transform: translateX(-5px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 968px) {
+    .back-arrow {
+        top: 16px;
+        left: 16px;
+    }
+}
